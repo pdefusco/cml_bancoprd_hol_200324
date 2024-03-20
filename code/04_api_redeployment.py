@@ -194,7 +194,7 @@ runtimeId = 'docker.repository.cloudera.com/cloudera/cdsw/ml-runtime-workbench-p
 
 cpu = 2
 mem = 4
-replicas = 2
+replicas = 1
 
 createModelBuildResponse = deployment.createModelBuild(projectId, modelVersionId, modelCreationId, runtimeId, cpu, mem, replicas)
 modelBuildId = createModelBuildResponse.id
